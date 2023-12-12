@@ -1,11 +1,12 @@
 import { useState } from 'react'
+import Header from './componentes/header'
 
 
 function App() {
   
 
   return (
-    <img src="./src/assets/limpeza1.png" alt="" />
+    <Header />
   )
 }
 
