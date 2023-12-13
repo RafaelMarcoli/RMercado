@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     background: rgb(7, 6, 36);
+    width: 100vw;
 }
 .logo {
     size: 100vw;
@@ -32,8 +33,10 @@
     color: rgb(125, 122, 169);
   }
   h1 {
-    margin-top: 9px;
-    height: 45px;
+    font-size: 2rem;
+    padding: 7px;
+    padding-left: 16px;
+    height: 44px;
     font-size: xx-large;
     font-weight: 500;
     color: white;
