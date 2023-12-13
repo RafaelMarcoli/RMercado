@@ -1,0 +1,59 @@
+#menucategorias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    border: 2px solid rgb(202, 199, 199);
+    background: rgb(19, 17, 71);
+    position: fixed;
+    position: absolute;
+    height: 135px;
+    width: 99px;
+    top: 25;
+    right: 0;
+    flex-direction: column;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+#menucategorias p {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+   
+}
+
+#botoes button {
+    border: 2px solid rgb(202, 199, 199);
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    background: rgb(19, 17, 71);
+    height: 25px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    margin-top: 5px;
+    margin-right: 4px;
+}
+.menucat {
+    
+    color: white;
+    display: flex;
+    background: rgb(19, 17, 71);
+    height: 20px;
+    width: 67px;
+}
+#botoes :hover {
+    border: 2px solid rgb(77, 71, 160);
+    background-color: rgb(15, 15, 43);
+    color: rgb(125, 122, 169);
+}
+#botoes .semborda {
+    border: none;
+    margin-right: 1px; 
+}

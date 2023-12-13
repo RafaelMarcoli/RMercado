@@ -1,13 +1,19 @@
 import { useState } from 'react'
 import Header from './componentes/header'
 import './App.css';
+import Menu from './componentes/Menu';
 
 function App() {
   
 
   return (
-    <Header />
+   <div>
+   <Header />
+   <Menu />
+   </div>
+  
   )
+  
 }
 
 export default App
