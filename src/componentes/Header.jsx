@@ -2,8 +2,17 @@ import { AiOutlineDoubleLeft } from "react-icons/ai";
 import { AiOutlineDoubleRight } from "react-icons/ai";
 import { AiOutlineBars } from "react-icons/ai";
 import './Header.css';
+import Menu from "./Menu";
+import { useState } from "react";
 
 function Header() {
+
+  const [ showMenu, setShowMenu ] = useState(false)
+  const toggleMenu = () => {
+    setShowMenu(!showMenu)
+    
+  }
+  console.log(setShowMenu)
 
   return (
     <div className="header">
@@ -23,11 +32,13 @@ function Header() {
         </div>
 
         <div id="categorias">
-            <button >
-            <AiOutlineBars className="icon2" size={20}/>Menu 
+            <button id="abrirmenu1" onClick={toggleMenu} >
+            <AiOutlineBars 
+            className="icon2" size={20} 
+            />Menu 
             </button>
-           
         </div>
+        
     
     </div>
     

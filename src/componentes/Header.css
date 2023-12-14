@@ -4,6 +4,7 @@
     justify-content: space-between;
     background: rgb(7, 6, 36);
     width: 100vw;
+    overflow: hidden;
 }
 .logo {
     size: 100vw;

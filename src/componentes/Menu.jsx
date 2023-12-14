@@ -7,8 +7,11 @@ import { MdCleanHands } from "react-icons/md";
 
 import './Menu.css';
 
+
 function Menu() {
+  
   return (
+
     <div id='menucategorias'>
         <p><TbCategoryPlus />Categorias</p>
         <div id='botoes' >
@@ -19,6 +22,7 @@ function Menu() {
         
 
     </div>
+    
   )
 }
 
