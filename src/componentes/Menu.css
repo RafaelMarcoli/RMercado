@@ -1,4 +1,4 @@
-#menucategorias {
+.menucategorias {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@
     border-radius: 5px;
 }
 
-#menucategorias p {
+.menucategorias p {
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -53,7 +53,7 @@
     background-color: rgb(15, 15, 43);
     color: rgb(125, 122, 169);
 }
-#botoes .semborda {
+#botoes .menuIcon {
     border: none;
     margin-right: 1px; 
 }

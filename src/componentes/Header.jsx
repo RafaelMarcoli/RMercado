@@ -7,15 +7,17 @@ import { useState } from "react";
 
 function Header() {
 
-  const [ showMenu, setShowMenu ] = useState(false)
+  const [ abrirMenu, setAbrirMenu ] = useState(false)
+  
   const toggleMenu = () => {
-    setShowMenu(!showMenu)
-    
-  }
-  console.log(setShowMenu)
+    setAbrirMenu(!abrirMenu);
+    console.log(abrirMenu)
+    }
+  
+  
 
   return (
-    <div className="header">
+    <header className="header">
         
         <div>
             <img className="logo" src="./src/assets/logo/R.Mercado.png" alt="logo" />
@@ -31,16 +33,17 @@ function Header() {
           <AiOutlineDoubleLeft className="icon" size={27}/>
         </div>
 
-        <div id="categorias">
-            <button id="abrirmenu1" onClick={toggleMenu} >
+        <div id="categorias" >
+            <button id="abrirMenu1"  onClick={toggleMenu }>
             <AiOutlineBars 
             className="icon2" size={20} 
             />Menu 
             </button>
         </div>
         
+        
     
-    </div>
+    </header>
     
     
   )

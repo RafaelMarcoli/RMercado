@@ -8,16 +8,16 @@ import { MdCleanHands } from "react-icons/md";
 import './Menu.css';
 
 
-function Menu() {
-  
+function Menu () {
+ 
   return (
 
-    <div id='menucategorias'>
+    <div className="menucategorias" >
         <p><TbCategoryPlus />Categorias</p>
         <div id='botoes' >
-        <button className='menucat'><GiFruitBowl className="semborda"/>Alimentos</button>
-        <button className='menucat'><BiSolidDrink className="semborda" />Bebidas</button>
-        <button className='menucat'><MdCleanHands className="semborda" />Limpeza</button> 
+        <button className='menucat'><GiFruitBowl className="menuIcon"/>Alimentos</button>
+        <button className='menucat'><BiSolidDrink className="menuIcon" />Bebidas</button>
+        <button className='menucat'><MdCleanHands className="menuIcon" />Limpeza</button> 
         </div>
         
 
