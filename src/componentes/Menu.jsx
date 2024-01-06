@@ -12,7 +12,7 @@ function Menu () {
  
   return (
 
-    <div className="menucategorias" >
+    <nav className="menucategorias" >
         <p><TbCategoryPlus />Categorias</p>
         <div id='botoes' >
         <button className='menucat'><GiFruitBowl className="menuIcon"/>Alimentos</button>
@@ -21,7 +21,7 @@ function Menu () {
         </div>
         
 
-    </div>
+    </nav>
     
   )
 }

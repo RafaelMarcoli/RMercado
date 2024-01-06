@@ -16,7 +16,7 @@
     object-fit: contain;
     box-shadow: 0 1px 3px 1px white;
 }
-#categorias button {
+.abrirMenu1 {
     border: 2px solid rgb(202, 199, 199);
     border-radius: 5px;
     width: 65px;
@@ -31,7 +31,7 @@
     margin: 13px 16px;
     font-weight: 600;
 }
-#categorias :hover {
+.abrirMenu1:hover {
     border: 2px solid rgb(77, 71, 160);
     background-color: rgb(15, 15, 43);
     color: rgb(125, 122, 169);
@@ -61,7 +61,7 @@ h1 span {
     display: flex;
     
 }
-#categorias .icon2 {
+.icon2 {
   margin-right: 1px;  
   border: none;
 }

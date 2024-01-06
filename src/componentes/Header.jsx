@@ -2,8 +2,8 @@ import { AiOutlineDoubleLeft } from "react-icons/ai";
 import { AiOutlineDoubleRight } from "react-icons/ai";
 import { AiOutlineBars } from "react-icons/ai";
 import './Header.css';
-import Menu from "./Menu";
 import { useState } from "react";
+import Menu from "./Menu";
 
 function Header() {
 
@@ -13,8 +13,6 @@ function Header() {
     setAbrirMenu(!abrirMenu);
     console.log(abrirMenu)
     }
-  
-  
 
   return (
     <header className="header">
@@ -34,11 +32,12 @@ function Header() {
         </div>
 
         <div id="categorias" >
-            <button id="abrirMenu1"  onClick={toggleMenu }>
+            <button className="abrirMenu1" onClick={toggleMenu}>
             <AiOutlineBars 
             className="icon2" size={20} 
             />Menu 
             </button>
+            <Menu/>
         </div>
         
         
