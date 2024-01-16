@@ -1,14 +1,14 @@
 
-import Header from './componentes/header'
 import './App.css';
-import Menu from './componentes/Menu';
+import Header from './componentes/Header/Header';
+
 
 function App() {
   
 
   return (
    <div>
-   <Header />
+    <Header />
    
    </div>
   
@@ -16,4 +16,4 @@ function App() {
   
 }
 
-export default App
+export default App;

@@ -1,5 +1,5 @@
 .menucategorias {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     gap: 5px;
@@ -8,13 +8,20 @@
     background: rgb(19, 17, 71);
     position: fixed;
     position: absolute;
-    height: 135px;
-    width: 99px;
+    z-index: 9999;
+    height: 145px;
+    width: 110px;
     top: 25;
     right: 0px;
     flex-direction: column;
     padding-left: 5px;
     border-radius: 5px;
+    
+}
+
+.show {
+    display: flex;
+    
 }
 
 .menucategorias p {
@@ -25,7 +32,7 @@
    
 }
 
-#botoes button {
+.menucat {
     border: 2px solid rgb(202, 199, 199);
     cursor: pointer;
     border-radius: 5px;
@@ -33,10 +40,10 @@
     display: flex;
     background: rgb(19, 17, 71);
     height: 25px;
-    width: 80px;
-    justify-content: center;
+    width: 85px;
+    justify-content: start;
     align-items: center;
-    gap: 1px;
+    gap: 2px;
     margin-top: 5px;
     margin-right: 4px;
 }
@@ -45,15 +52,36 @@
     color: white;
     display: flex;
     background: rgb(19, 17, 71);
-    height: 20px;
-    width: 67px;
+    height: 25px;
+    width: 86px;
+    padding-left: 3px;
 }
-#botoes :hover {
+.menucat:hover {
     border: 2px solid rgb(77, 71, 160);
     background-color: rgb(15, 15, 43);
     color: rgb(125, 122, 169);
 }
-#botoes .menuIcon {
+.menuIcon {
     border: none;
-    margin-right: 1px; 
+    
 }
+.abrirMenu1 {
+    border: 2px solid rgb(202, 199, 199);
+    border-radius: 5px;
+    width: 65px;
+    height: 35px;
+    background: rgb(19, 17, 71);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    color: white;
+    margin: 13px 22px 13px 15px;
+    font-weight: 600;
+}
+.abrirMenu1:hover {
+    border: 2px solid rgb(77, 71, 160);
+    background-color: rgb(15, 15, 43);
+    color: rgb(125, 122, 169);
+  }
