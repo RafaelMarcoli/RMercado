@@ -4,6 +4,8 @@
     justify-content: space-between;
     background: rgb(7, 6, 36);
     width: 100%;
+    position: absolute;
+    text-decoration: none;
     
 }
 .logo {

@@ -6,6 +6,7 @@ import { AiOutlineBars } from "react-icons/ai";
 import { useState } from "react";
 
 import styles from "./Menu.module.css";
+import { Link } from "react-router-dom";
 
 
 
@@ -32,11 +33,17 @@ function Menu () {
         onClick={toggleMenu}
         >
         <p><TbCategoryPlus />Categorias</p>
-        <div  >
-        <button className={styles.menucat}><GiFruitBowl className={styles.menuIcon} />Alimentos</button>
-        <button className={styles.menucat}><BiSolidDrink className={styles.menuIcon} />Bebidas</button>
-        <button className={styles.menucat}><MdCleanHands className={styles.menuIcon} />Limpeza</button> 
-        </div>
+        <>
+          
+          <Link to="/alimentos" className={styles.menucat}><GiFruitBowl className={styles.menuIcon} />Alimentos</Link>
+          
+          
+          <Link to="/bebidas" className={styles.menucat}><BiSolidDrink className={styles.menuIcon} />Bebidas</Link>
+          
+          
+          <Link to="/limpeza" className={styles.menucat}><MdCleanHands className={styles.menuIcon} />Limpezas</Link> 
+            
+         </>
         
 
       </nav>

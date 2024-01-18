@@ -17,6 +17,7 @@
     padding-left: 5px;
     border-radius: 5px;
     
+    
 }
 
 .show {
@@ -29,7 +30,6 @@
     display: flex;
     align-items: center;
     padding-right: 5px;
-   
 }
 
 .menucat {
@@ -40,22 +40,17 @@
     display: flex;
     background: rgb(19, 17, 71);
     height: 25px;
-    width: 85px;
+    width: 86px;
     justify-content: start;
     align-items: center;
     gap: 2px;
     margin-top: 5px;
     margin-right: 4px;
+    text-decoration: none;
+    padding-left: 4px;
+    font-size: 14px;
 }
-.menucat {
-    
-    color: white;
-    display: flex;
-    background: rgb(19, 17, 71);
-    height: 25px;
-    width: 86px;
-    padding-left: 3px;
-}
+
 .menucat:hover {
     border: 2px solid rgb(77, 71, 160);
     background-color: rgb(15, 15, 43);
