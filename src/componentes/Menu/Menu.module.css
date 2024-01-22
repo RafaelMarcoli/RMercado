@@ -49,6 +49,7 @@
     text-decoration: none;
     padding-left: 4px;
     font-size: 14px;
+    transition: all .5s ease;
 }
 
 .menucat:hover {
@@ -74,6 +75,7 @@
     color: white;
     margin: 13px 22px 13px 15px;
     font-weight: 600;
+    transition: all .5s ease;
 }
 .abrirMenu1:hover {
     border: 2px solid rgb(77, 71, 160);
