@@ -7,6 +7,7 @@
     position: absolute;
     
     
+    
 }
 .logo {
     size: 100vw;
@@ -42,7 +43,7 @@ h1 span {
 }
 .nomesheader {
     display: flex;
-    
+    padding-left: 2rem;
 }
 .icon2 {
   margin-right: 1px;  

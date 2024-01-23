@@ -74,6 +74,7 @@
     user-select: none;
     color: white;
     margin: 13px 22px 13px 15px;
+    padding-right: 2px;
     font-weight: 600;
     transition: all .5s ease;
 }
