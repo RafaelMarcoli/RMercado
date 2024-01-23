@@ -1,0 +1,30 @@
+.page404 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-block: 3rem;
+    width: 100%;
+}
+h2 {
+    color: rgb(7, 6, 36);
+}
+.error {
+    font-weight: 600;
+    font-size: 40px;
+    padding-top: 25px;
+    display: flex;
+    position: absolute;
+}
+
+.numero {
+    margin-top: 2px;
+    font-size: 250px;
+    font-weight: 500;
+    color: rgb(253, 17, 17);
+}
+
+.notfound {
+    font-size: 30px;
+    color: rgb(7, 6, 36);
+}
