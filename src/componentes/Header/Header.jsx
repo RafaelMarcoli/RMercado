@@ -5,21 +5,13 @@ import './Header.css';
 import Menu from "../Menu/Menu";
 import { Link } from "react-router-dom";
 
-
-
- 
-
 function Header() {
- 
-
   return (
     <header className="header">
-        
-        
+
       <Link to="/">
          <img className="logo" src="./src/assets/logo/R.Mercado.png" alt="logo" />
       </Link>
-        
         
         <div className="nomesheader">
           <AiOutlineDoubleRight className="icon" size={27}/>
@@ -33,13 +25,8 @@ function Header() {
 
         <div >
           <Menu />
-        </div>
-                  
-         
-              
+        </div>        
     </header>
-    
-    
   )
 }
 
