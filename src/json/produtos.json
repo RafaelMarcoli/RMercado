@@ -87,28 +87,150 @@
     "preco": 4.99,
     "imagem": "alimento14.png"
   },
+
   {
-    "nome": "Feijão Preto Camill 1Kg",
+    "nome": "Refrigerante Coca-Cola 2L",
     "category": "bebidas",
-    "preco": 16.90,
+    "preco": 9.90,
     "imagem": "bebida1.png"
   },
-  {
-    "nome": "Feijão Carioca Grão de Campo Seleto Pacote 1Kg",
+{
+    "nome": "Refrigerante Guaraná Antarctica Pet 2 L",
     "category": "bebidas",
-    "preco": 6.50,
+    "preco": 8.15,
     "imagem": "bebida2.png"
   },
+{
+    "nome": "51 1L",
+    "category": "bebidas",
+    "preco": 8.15,
+    "imagem": "bebida3.png"
+  },
+{
+    "nome": "Campari 900ML",
+    "category": "bebidas",
+    "preco": 18.15,
+    "imagem": "bebida4.png"
+  },
+{
+    "nome": "Vodka Destilada Skyy Garrafa 750ml",
+    "category": "bebidas",
+    "preco": 49.99,
+    "imagem": "bebida5.png"
+  },
+{
+    "nome": "Whisky Johnnie Walker Red Label 750ml",
+    "category": "bebidas",
+    "preco": 84.99,
+    "imagem": "bebida6.png"
+  },
+{
+    "nome": "Whisky Jack Daniel's 1L",
+    "category": "bebidas",
+    "preco": 130.99,
+    "imagem": "bebida7.png"
+  },
+{
+    "nome": "Whisky Black & White 1L ",
+    "category": "bebidas",
+    "preco": 67.99,
+    "imagem": "bebida8.png"
+  },
+{
+    "nome": "Cerveja Heineken ",
+    "category": "bebidas",
+    "preco": 31.99,
+    "imagem": "bebida9.png"
+  },
+{
+    "nome": "Spaten 600ML ",
+    "category": "bebidas",
+    "preco": 9.99,
+    "imagem": "bebida10.png"
+  },
+{
+    "nome": "Cerveja Budweiser 330ml Pack com 6 ",
+    "category": "bebidas",
+    "preco": 29.94,
+    "imagem": "bebida11.png"
+  },
+{
+    "nome": "Cerveja Devassa Lata Natural 350ml Fardo c/12",
+    "category": "bebidas",
+    "preco": 38.94,
+    "imagem": "bebida12.png"
+  },
+  
   {
-    "nome": "Feijão Preto Camill 1Kg",
+    "nome": "Veja Aroma Sense Energia - Limpador Perfumado, com óleos essenciais, 2L",
     "category": "limpeza",
-    "preco": 16.90,
+    "preco": 26.90,
     "imagem": "limpeza1.png"
   },
   {
-    "nome": "Feijão Carioca Grão de Campo Seleto Pacote 1Kg",
+    "nome": "Limpador Perfumes Lavanda da França, Veja, 4 L",
     "category": "limpeza",
-    "preco": 6.50,
+    "preco": 49.11,
     "imagem": "limpeza2.png"
+  },
+  {
+    "nome": "Veja Limpa Vidros Vidrex Tradicional - Fórmula de lavagem de vidro, 500ml",
+    "category": "limpeza",
+    "preco": 13.71,
+    "imagem": "limpeza3.png"
+  },
+  {
+    "nome": "Omo Lavagem Perfeita - Sabão Líquido, 5L",
+    "category": "limpeza",
+    "preco": 51.90,
+    "imagem": "limpeza4.png"
+  },
+  {
+    "nome": "Ypê - Sabão em Barra Neutro 180g , pacote 5 unidades",
+    "category": "limpeza",
+    "preco": 39.90,
+    "imagem": "limpeza5.png"
+  },
+{
+    "nome": "CIF Cremoso Limpeza Milagrosa produto de limpeza de casa milagroso Cif Original remove 100% da sujeira difícil sem esforço 250 ml",
+    "category": "limpeza",
+    "preco": 18.82,
+    "imagem": "limpeza6.png"
+    
+  },
+ {
+    "nome": "Sabão Líquido Ariel Cores Radiantes 3L",
+    "category": "limpeza",
+    "preco": 33.21,
+    "imagem": "limpeza7.png"
+    
+  },
+ {
+    "nome": "Ypê - Lava Louças Líquido 500ml,Frasco",
+    "category": "limpeza",
+    "preco": 4.21,
+    "imagem": "limpeza8.png"
+    
+  },
+  {
+    "nome": "Veja - Limpa Banheiro AntBacteriano Oxi ativo,Frasco 500ml",
+    "category": "limpeza",
+    "preco": 24.65,
+    "imagem": "limpeza9.png"
+    
+  },
+{
+    "nome": "Veja - Veja Power Fusion - Limpador Multiuso, Limão, 500Ml",
+    "category": "limpeza",
+    "preco": 14.55,
+    "imagem": "limpeza10.png"
+    
+  },
+{
+    "nome": "Veja - Limpa Vidros Vidrex, multi Vidros, 500Ml",
+    "category": "limpeza",
+    "preco": 22.25,
+    "imagem": "limpeza11.png"
+    
   }
 ]
