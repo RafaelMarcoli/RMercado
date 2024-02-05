@@ -1,29 +1,25 @@
 import React from 'react';
 import Header from '../../componentes/Header/Header';
-import styles from "./Home.module.css";
 import Footer from '../../componentes/Footer/Footer';
 import Conteiner from '../../componentes/Conteiner/Conteiner';
-import Card from '../../componentes/Card/Card'
-import alimentos from '../../json/alimentos.json'
+import Category from '../../componentes/Category/Category';
+
 
 function Home() {
   return (
     <>
-    <Header/>
-    <Conteiner>
-      <h2>Alimentos</h2>
-      <section className={styles.home}>
-        
-        {alimentos.map(alimento => 
-          <Card id={alimento.id} imagem={alimento.imagem} nome={alimento.nome} preco={alimento.preco} key={alimento.id} />
-        )}
+      <Header />
+      <Conteiner>
 
-      </section>
-      
-    </Conteiner>
-    <Footer />
+        <Category category1='alimentos' titulo='Alimentos' /> 
+        <Category category1='bebidas' titulo='Bebidas' /> 
+        <Category category1='limpeza' titulo='Limpeza' /> 
+
+      </Conteiner>
+      <Footer />
     </>
   )
 }
 
 export default Home
+

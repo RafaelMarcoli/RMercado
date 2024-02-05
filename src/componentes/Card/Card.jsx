@@ -1,9 +1,9 @@
 import stylus from './Card.module.css'
 
-function Card({id , imagem , nome , preco}) {
+function Card({ imagem , nome , preco, category}) {
   return (
-    <div className={stylus.card} id={`${id}`}>
-        <img className={stylus.img} src={`./src/assets/${imagem}`} alt="alimento1" />
+    <div className={stylus.card} id={`${imagem}`}>
+        <img className={stylus.img} src={`./src/assets/${category}/${imagem}`} alt={`${nome}`} />
         <p>{nome}</p>
         <p>R${preco}</p>
 

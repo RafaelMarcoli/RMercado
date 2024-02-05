@@ -1,0 +1,16 @@
+.category {
+    width: 100%;
+    color: black;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    padding-block: 10px;
+}
+.top {
+   
+    padding-block: 1rem;
+}

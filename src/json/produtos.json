@@ -1,0 +1,114 @@
+[
+  {
+    "nome": "Feijão Preto Camill 1Kg",
+    "category": "alimentos",
+    "preco": 16.90,
+    "imagem": "alimento1.png"
+  },
+{
+    
+    "nome": "Feijão Carioca Grão de Campo Seleto Pacote 1Kg",
+    "category": "alimentos",
+    "preco": 6.50,
+    "imagem": "alimento2.png"
+  },
+{
+    
+    "nome": "Macarrão Sêmola Galo 500g Parafuso",
+    "category": "alimentos",
+    "preco": 9.50,
+    "imagem": "alimento3.png"
+  },
+{
+    
+    "nome": "Macarrão Furadinho Vitarella 500G",
+    "category": "alimentos",
+    "preco": 3.50,
+    "imagem": "alimento4.png"
+  },
+{
+    
+    "nome": "Massa para Lasanha Vitarella Speciale Pacote 500g",
+    "category": "alimentos",
+    "preco": 13.50,
+    "imagem": "alimento5.png"
+  },
+{
+    "nome": "Arroz Branco Tio João 5 Kg",
+    "category": "alimentos",
+    "preco": 13.50,
+    "imagem": "alimento6.png"
+  },
+{
+    "nome": "Arroz Parabolizado Chinês Pacote 1Kg",
+    "category": "alimentos",
+    "preco": 7.50,
+    "imagem": "alimento7.png"
+  },
+{
+    "nome": "Café Torrado E Moído 3 Corações Extra Forte 500G",
+    "category": "alimentos",
+    "preco": 20.50,
+    "imagem": "alimento8.png"
+  },
+{
+    "nome": "3 Corações Café Torrado E Moído Tradicional Pacote 500G",
+    "category": "alimentos",
+    "preco": 10.50,
+    "imagem": "alimento9.png"
+  },
+{
+    "nome": "Cafe pilão Torrado e Moido Tradicional Abre e Fecha 500g",
+    "category": "alimentos",
+    "preco": 10.89,
+    "imagem": "alimento10.png"
+  },
+{
+    "nome": "Açúcar Refinado Especial União Pct 1kg",
+    "category": "alimentos",
+    "preco": 14.59,
+    "imagem": "alimento11.png"
+  },
+{
+    "nome": "Açúcar Cristal da Cristal Alimentos 1Kg",
+    "category": "alimentos",
+    "preco": 5.59,
+    "imagem": "alimento12.png"
+  },
+{
+    "nome": "Adoçante Liquido Zero-Cal Eritritol Bem Natural 65mL",
+    "category": "alimentos",
+    "preco": 26.99,
+    "imagem": "alimento13.png"
+  },
+{
+    "nome": "Sal Refinado Bom de Mesa Embalagem 1Kg",
+    "category": "alimentos",
+    "preco": 4.99,
+    "imagem": "alimento14.png"
+  },
+  {
+    "nome": "Feijão Preto Camill 1Kg",
+    "category": "bebidas",
+    "preco": 16.90,
+    "imagem": "bebida1.png"
+  },
+  {
+    "nome": "Feijão Carioca Grão de Campo Seleto Pacote 1Kg",
+    "category": "bebidas",
+    "preco": 6.50,
+    "imagem": "bebida2.png"
+  },
+  {
+    "nome": "Feijão Preto Camill 1Kg",
+    "category": "limpeza",
+    "preco": 16.90,
+    "imagem": "limpeza1.png"
+  },
+  {
+    "nome": "Feijão Carioca Grão de Campo Seleto Pacote 1Kg",
+    "category": "limpeza",
+    "preco": 6.50,
+    "imagem": "limpeza2.png"
+  }
+]
