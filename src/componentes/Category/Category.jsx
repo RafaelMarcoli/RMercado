@@ -5,7 +5,7 @@ import Card from "../Card/Card";
 function Category({category1 , titulo}) {
   return (
     <div className={styles.top}>
-          <h2>{titulo}</h2>
+          <h2 className={styles.titulo}>{titulo}</h2>
           <section className={styles.category}>
 
             {produtos.filter(({ category }) => category === `${category1}`).map(produto =>

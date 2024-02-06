@@ -1,7 +1,6 @@
 .category {
     width: 100%;
     color: black;
-    
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -11,6 +10,12 @@
     padding-block: 10px;
 }
 .top {
-   
     padding-block: 1rem;
+}
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 1rem;
 }
