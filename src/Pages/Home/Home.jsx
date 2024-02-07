@@ -5,19 +5,20 @@ import Conteiner from '../../componentes/Conteiner/Conteiner';
 import Category from '../../componentes/Category/Category';
 import styles from './Home.module.css'
 import Banner from '../../componentes/Banner/Banner';
-import Banner_B from '../../componentes/Banner/Banner_B';
-import Banner_L from '../../componentes/Banner/Banner_L';
+import Banner_alimentos from '../../assets/img-banner/banner-alimentos2.png';
+import Banner_bebidas from '../../assets/img-banner/banner-bebidas.png';
+import Banner_limpeza from '../../assets/img-banner/banner-limpeza1.png';
 
 function Home() {
   return (
     <main className={styles.home}>
       <Header />
       <Conteiner>
-        <Banner/>
+        <Banner img={Banner_alimentos} />
         <Category category1='alimentos' titulo='Alimentos' /> 
-        <Banner_B />
+        <Banner img={Banner_bebidas}  />
         <Category category1='bebidas' titulo='Bebidas' /> 
-        <Banner_L />
+        <Banner img={Banner_limpeza}/>
         <Category category1='limpeza' titulo='Limpeza' /> 
 
       </Conteiner>
