@@ -3,7 +3,7 @@
     "nome": "Feijão Preto Camill 1Kg",
     "category": "alimentos",
     "preco": 16.89,
-    "imagem": "../assets/alimentos/alimento1.png"
+    "imagem": "alimento1.png"
   },
   {
     "nome": "Feijão Carioca Grão de Campo Seleto Pacote 1Kg",
