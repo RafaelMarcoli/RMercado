@@ -3,164 +3,158 @@
     "nome": "Feijão Preto Camill 1Kg",
     "category": "alimentos",
     "preco": 16.89,
-    "imagem": "alimento1.png"
+    "imagem": "../assets/alimentos/alimento1.png"
   },
-{
-    
+  {
     "nome": "Feijão Carioca Grão de Campo Seleto Pacote 1Kg",
     "category": "alimentos",
     "preco": 6.50,
     "imagem": "alimento2.png"
   },
-{
-    
+  {
     "nome": "Macarrão Sêmola Galo 500g Parafuso",
     "category": "alimentos",
     "preco": 9.50,
     "imagem": "alimento3.png"
   },
-{
-    
+  {
     "nome": "Macarrão Furadinho Vitarella 500G",
     "category": "alimentos",
     "preco": 3.50,
     "imagem": "alimento4.png"
   },
-{
-    
+  {
     "nome": "Massa para Lasanha Vitarella Speciale Pacote 500g",
     "category": "alimentos",
     "preco": 13.50,
     "imagem": "alimento5.png"
   },
-{
+  {
     "nome": "Arroz Branco Tio João 5 Kg",
     "category": "alimentos",
     "preco": 13.50,
     "imagem": "alimento6.png"
   },
-{
+  {
     "nome": "Arroz Parabolizado Chinês Pacote 1Kg",
     "category": "alimentos",
     "preco": 7.50,
     "imagem": "alimento7.png"
   },
-{
+  {
     "nome": "Café Torrado E Moído 3 Corações Extra Forte 500G",
     "category": "alimentos",
     "preco": 20.50,
     "imagem": "alimento8.png"
   },
-{
+  {
     "nome": "3 Corações Café Torrado E Moído Tradicional Pacote 500G",
     "category": "alimentos",
     "preco": 10.50,
     "imagem": "alimento9.png"
   },
-{
+  {
     "nome": "Cafe pilão Torrado e Moido Tradicional Abre e Fecha 500g",
     "category": "alimentos",
     "preco": 10.89,
     "imagem": "alimento10.png"
   },
-{
+  {
     "nome": "Açúcar Refinado Especial União Pct 1kg",
     "category": "alimentos",
     "preco": 14.59,
     "imagem": "alimento11.png"
   },
-{
+  {
     "nome": "Açúcar Cristal da Cristal Alimentos 1Kg",
     "category": "alimentos",
     "preco": 5.59,
     "imagem": "alimento12.png"
   },
-{
+  {
     "nome": "Adoçante Liquido Zero-Cal Eritritol Bem Natural 65mL",
     "category": "alimentos",
     "preco": 26.99,
     "imagem": "alimento13.png"
   },
-{
+  {
     "nome": "Sal Refinado Bom de Mesa Embalagem 1Kg",
     "category": "alimentos",
     "preco": 4.99,
     "imagem": "alimento14.png"
   },
-
   {
     "nome": "Refrigerante Coca-Cola 2L",
     "category": "bebidas",
     "preco": 9.90,
     "imagem": "bebida1.png"
   },
-{
+  {
     "nome": "Refrigerante Guaraná Antarctica Pet 2 L",
     "category": "bebidas",
     "preco": 8.15,
     "imagem": "bebida2.png"
   },
-{
+  {
     "nome": "51 1L",
     "category": "bebidas",
     "preco": 8.15,
     "imagem": "bebida3.png"
   },
-{
+  {
     "nome": "Campari 900ML",
     "category": "bebidas",
     "preco": 18.15,
     "imagem": "bebida4.png"
   },
-{
+  {
     "nome": "Vodka Destilada Skyy Garrafa 750ml",
     "category": "bebidas",
     "preco": 49.99,
     "imagem": "bebida5.png"
   },
-{
+  {
     "nome": "Whisky Johnnie Walker Red Label 750ml",
     "category": "bebidas",
     "preco": 84.99,
     "imagem": "bebida6.png"
   },
-{
+  {
     "nome": "Whisky Jack Daniel's 1L",
     "category": "bebidas",
     "preco": 130.99,
     "imagem": "bebida7.png"
   },
-{
+  {
     "nome": "Whisky Black & White 1L ",
     "category": "bebidas",
     "preco": 67.99,
     "imagem": "bebida8.png"
   },
-{
+  {
     "nome": "Cerveja Heineken ",
     "category": "bebidas",
     "preco": 31.99,
     "imagem": "bebida9.png"
   },
-{
+  {
     "nome": "Spaten 600ML ",
     "category": "bebidas",
     "preco": 9.99,
     "imagem": "bebida10.png"
   },
-{
+  {
     "nome": "Cerveja Budweiser 330ml Pack com 6 ",
     "category": "bebidas",
     "preco": 29.94,
     "imagem": "bebida11.png"
   },
-{
+  {
     "nome": "Cerveja Devassa Lata Natural 350ml Fardo c/12",
     "category": "bebidas",
     "preco": 38.94,
     "imagem": "bebida12.png"
   },
-  
   {
     "nome": "Veja Aroma Sense Energia - Limpador Perfumado, com óleos essenciais, 2L",
     "category": "limpeza",
@@ -191,46 +185,40 @@
     "preco": 39.90,
     "imagem": "limpeza5.png"
   },
-{
+  {
     "nome": "CIF Cremoso Limpeza Milagrosa remove 100% da sujeira difícil sem esforço 250 ml",
     "category": "limpeza",
     "preco": 18.82,
     "imagem": "limpeza6.png"
-    
   },
- {
+  {
     "nome": "Sabão Líquido Ariel Cores Radiantes 3L",
     "category": "limpeza",
     "preco": 33.21,
     "imagem": "limpeza7.png"
-    
   },
- {
+  {
     "nome": "Ypê - Lava Louças Líquido 500ml,Frasco",
     "category": "limpeza",
     "preco": 4.21,
     "imagem": "limpeza8.png"
-    
   },
   {
     "nome": "Veja - Limpa Banheiro AntBacteriano Oxi ativo,Frasco 500ml",
     "category": "limpeza",
     "preco": 24.65,
     "imagem": "limpeza9.png"
-    
   },
-{
+  {
     "nome": "Veja - Veja Power Fusion - Limpador Multiuso, Limão, 500Ml",
     "category": "limpeza",
     "preco": 14.55,
     "imagem": "limpeza10.png"
-    
   },
-{
+  {
     "nome": "Veja - Limpa Vidros Vidrex, multi Vidros, 500Ml",
     "category": "limpeza",
     "preco": 22.25,
     "imagem": "limpeza11.png"
-    
   }
 ]
