@@ -7,18 +7,19 @@ function Page404() {
   return (
 
     <>
-        <Header /> 
-        <Conteiner>
-            <div className={styles.page404}>
-            <h2>Conteudo não Localizado!</h2>
-             <p> <span className={styles.error}>Error:</span>
-             <span className={styles.numero}>404</span></p>
-             <strong className={styles.notfound}>Page Not Found!</strong>
-            </div>
-        </Conteiner>
-        <Footer />
+      <Header />
+      <Conteiner>
+        <div className={styles.page404}>
+          <h2>Conteudo não Localizado!</h2>
+          <p> <span className={styles.error}>Error:</span>
+            <span className={styles.numero}>404</span></p>
+          <strong className={styles.notfound}>Page Not Found!</strong>
+        </div>
+      </Conteiner>
+      <Footer />
     </>
   )
 }
 
 export default Page404
+// pagina de error
