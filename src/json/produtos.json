@@ -3,13 +3,13 @@
     "nome": "Feijão Preto Camill 1Kg",
     "category": "alimentos",
     "preco": 16.89,
-    "imagem": "alimento1.png"
+    "imagem": "/assets/Alimentos/alimento1.png"
   },
   {
     "nome": "Feijão Carioca Grão de Campo Seleto Pacote 1Kg",
     "category": "alimentos",
     "preco": 6.50,
-    "imagem": "alimento2.png"
+    "imagem": "/assets/Alimentos/alimento2.png"
   },
   {
     "nome": "Macarrão Sêmola Galo 500g Parafuso",
