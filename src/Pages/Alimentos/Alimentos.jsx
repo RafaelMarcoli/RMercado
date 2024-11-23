@@ -3,7 +3,6 @@ import Footer from '../../componentes/Footer/Footer';
 import Conteiner from '../../componentes/Conteiner/Conteiner';
 import Category from '../../componentes/Category/Category';
 import Banner from '../../componentes/Banner/Banner';
-import Banner_Categoria_A from '../../assets/img-banner/Banner-categoria-A.png';
 import styles from './Alimentos.module.css'
 
 function Alimentos() {
@@ -12,8 +11,8 @@ function Alimentos() {
       <Header />
       <Conteiner>
 
-        <Banner img={Banner_Categoria_A} />
-        <Category category1='alimentos' titulo='Alimentos' /> 
+        <Banner img="/assets/img-banner/Banner-categoria-A.png" />
+        <Category category1='alimentos' titulo='Alimentos' />
 
       </Conteiner>
       <Footer />
